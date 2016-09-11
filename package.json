@@ -1,0 +1,33 @@
+{
+  "name": "tiny-once",
+  "version": "1.0.0",
+  "description": "Very simple wrapper to run a function only once",
+  "keywords": [
+    "once",
+    "one-time",
+    "function",
+    "run",
+    "single"
+  ],
+  "bugs": {
+    "url": "https://github.com/gabmontes/tiny-once/issues"
+  },
+  "license": "WTFPL",
+  "author": "Gabriel Montes <gabriel@utoctadel.com.ar>",
+  "main": "dist/index.js",
+  "repository": "gabmontes/tiny-once",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register",
+    "build": "babel --presets latest -d dist/ lib/",
+    "prepublish": "npm test && npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-latest-minimal": "^1.1.1",
+    "babel-register": "^6.14.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
