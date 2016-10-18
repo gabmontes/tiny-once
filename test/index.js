@@ -1,6 +1,6 @@
-import { expect } from 'chai'
+const { expect } = require('chai')
 
-import once from '../lib'
+const once =require('../lib')
 
 describe('Once', function () {
   it('should call the function only once', function () {
