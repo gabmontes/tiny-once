@@ -16,9 +16,11 @@
   "author": "Gabriel Montes <gabriel@utoctadel.com.ar>",
   "files": [
     "dist",
-    "lib"
+    "lib",
+    "index.d.ts"
   ],
   "main": "dist/index.js",
+  "types": "index.d.ts",
   "repository": "gabmontes/tiny-once",
   "scripts": {
     "lint": "eslint lib",
